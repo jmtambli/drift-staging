@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+      "name": "10th Avenue",
+      "location": "Seattle, WA",
+      "images": [
+        "assets/img/portfolio/tenth-ave/tenth-ave-01.jpg",
+        "assets/img/portfolio/tenth-ave/tenth-ave-02.jpg",
+        "assets/img/portfolio/tenth-ave/tenth-ave-03.jpg"
+      ]
+    },
+    {
+      "name": "Bear Creek Estate",
+      "location": "Woodinville, WA",
+      "images": [
+        "assets/img/portfolio/bear-creek/bear-creek-02.jpg",
+        "assets/img/portfolio/bear-creek/bear-creek-03.jpg",
+        "assets/img/portfolio/bear-creek/bear-creek-04.jpg"
+      ]
+    },
+    {
+      "name": "Meadow Creek",
+      "location": "Snohomish County, WA",
+      "images": [
+        "assets/img/portfolio/meadow-creek/meadow-creek-01.jpg",
+        "assets/img/portfolio/meadow-creek/meadow-creek-02.jpg",
+        "assets/img/portfolio/meadow-creek/meadow-creek-04.jpg"
+      ]
+    },
+    {
+      "name": "84th Avenue",
+      "location": "Puget Sound, WA",
+      "images": [
+        "assets/img/portfolio/84th-ave/84th-ave-01.jpg",
+        "assets/img/portfolio/84th-ave/84th-ave-02.jpg",
+        "assets/img/portfolio/84th-ave/84th-ave-04.jpg"
+      ]
+    },
+    {
+      "name": "Beacon Hill",
+      "location": "Seattle, WA",
+      "images": [
+        "assets/img/portfolio/beacon-hill/beacon-hill-02.jpg",
+        "assets/img/portfolio/beacon-hill/beacon-hill-03.jpg",
+        "assets/img/portfolio/beacon-hill/beacon-hill-04.jpg"
+      ]
+    },
+    {
+      "name": "Bothell Residence",
+      "location": "Bothell, WA",
+      "images": [
+        "assets/img/portfolio/bothell/bothell-01.jpg",
+        "assets/img/portfolio/bothell/bothell-02.jpg",
+        "assets/img/portfolio/bothell/bothell-04.jpg"
+      ]
+    },
+    {
+      "name": "Cle Elum Retreat",
+      "location": "Cle Elum, WA",
+      "images": [
+        "assets/img/portfolio/cle-elum/cle-elum-02.jpg",
+        "assets/img/portfolio/cle-elum/cle-elum-03.jpg",
+        "assets/img/portfolio/cle-elum/cle-elum-04.jpg"
+      ]
+    },
+    {
+      "name": "Duvall Residence",
+      "location": "Duvall, WA",
+      "images": [
+        "assets/img/portfolio/duvall/duvall-01.jpg",
+        "assets/img/portfolio/duvall/duvall-02.jpg",
+        "assets/img/portfolio/duvall/duvall-03.jpg"
+      ]
+    },
+    {
+      "name": "Elma Court",
+      "location": "Puget Sound, WA",
+      "images": [
+        "assets/img/portfolio/elma-court/elma-court-01.jpg",
+        "assets/img/portfolio/elma-court/elma-court-02.jpg",
+        "assets/img/portfolio/elma-court/elma-court-04.jpg"
+      ]
+    },
+    {
+      "name": "Laurelhurst",
+      "location": "Seattle, WA",
+      "images": [
+        "assets/img/portfolio/laurelhurst/laurelhurst-01.jpg",
+        "assets/img/portfolio/laurelhurst/laurelhurst-04.jpg"
+      ]
+    },
+    {
+      "name": "Lombard Avenue",
+      "location": "Everett, WA",
+      "images": [
+        "assets/img/portfolio/lombard/lombard-01.jpg",
+        "assets/img/portfolio/lombard/lombard-02.jpg",
+        "assets/img/portfolio/lombard/lombard-04.jpg"
+      ]
+    },
+    {
+      "name": "Tacoma Residence",
+      "location": "Tacoma, WA",
+      "images": [
+        "assets/img/portfolio/tacoma/tacoma-01.jpg",
+        "assets/img/portfolio/tacoma/tacoma-02.jpg"
+      ]
+    },
+    {
+      "name": "Paisley Drive",
+      "location": "Puget Sound, WA",
+      "images": [
+        "assets/img/portfolio/paisley/paisley-01.jpg",
+        "assets/img/portfolio/paisley/paisley-05.jpg"
+      ]
+    }
+  ]
+}

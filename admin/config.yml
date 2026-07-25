@@ -1,0 +1,59 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+site_url: https://www.driftdesignandco.com
+display_url: https://www.driftdesignandco.com
+
+collections:
+  - name: "portfolio"
+    label: "📷 Portfolio Photos"
+    description: "Your staging gallery. Add a project, drag to reorder, delete photos, or drop in new ones."
+    files:
+      - name: "portfolio"
+        label: "Projects"
+        file: "data/portfolio.json"
+        editor: { preview: false }
+        fields:
+          - label: "Projects"
+            name: "projects"
+            label_singular: "Project"
+            widget: "list"
+            add_to_top: true
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Project name", name: "name", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - label: "Photos"
+                name: "images"
+                widget: "list"
+                summary: "Photo"
+                field: { label: "Photo", name: "image", widget: "image", hint: "Click to upload or replace." }
+
+  - name: "settings"
+    label: "✏️ Site Text & Contact"
+    description: "Edit key wording and your contact details (updates everywhere)."
+    files:
+      - name: "content"
+        label: "Text & contact info"
+        file: "data/content.json"
+        editor: { preview: false }
+        fields:
+          - { label: "Home page statement", name: "statement", widget: "text" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Instagram feed embed code (optional)", name: "instagramEmbed", widget: "text", required: false }
+          - label: "Social links"
+            name: "social"
+            widget: "object"
+            hint: "Paste full URLs. Empty ones are hidden automatically."
+            fields:
+              - { label: "Instagram", name: "instagram", widget: "string", required: false }
+              - { label: "Facebook", name: "facebook", widget: "string", required: false }
+              - { label: "Pinterest", name: "pinterest", widget: "string", required: false }
+              - { label: "Houzz", name: "houzz", widget: "string", required: false }
+              - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
