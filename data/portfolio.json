@@ -43,9 +43,12 @@
       "name": "Beacon Hill",
       "location": "Seattle, WA",
       "images": [
+        "assets/img/portfolio/beacon-hill/beacon-hill-01.jpg",
         "assets/img/portfolio/beacon-hill/beacon-hill-02.jpg",
         "assets/img/portfolio/beacon-hill/beacon-hill-03.jpg",
-        "assets/img/portfolio/beacon-hill/beacon-hill-04.jpg"
+        "assets/img/portfolio/beacon-hill/beacon-hill-04.jpg",
+        "assets/img/portfolio/beacon-hill/beacon-hill-05.jpg",
+        "assets/img/portfolio/beacon-hill/beacon-hill-06.jpg"
       ]
     },
     {
