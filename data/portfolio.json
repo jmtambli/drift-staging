@@ -13,9 +13,14 @@
       "name": "Bear Creek Estate",
       "location": "Woodinville, WA",
       "images": [
+        "assets/img/portfolio/bear-creek/bear-creek-01.jpg",
         "assets/img/portfolio/bear-creek/bear-creek-02.jpg",
         "assets/img/portfolio/bear-creek/bear-creek-03.jpg",
-        "assets/img/portfolio/bear-creek/bear-creek-04.jpg"
+        "assets/img/portfolio/bear-creek/bear-creek-04.jpg",
+        "assets/img/portfolio/bear-creek/bear-creek-05.jpg",
+        "assets/img/portfolio/bear-creek/bear-creek-06.jpg",
+        "assets/img/portfolio/bear-creek/bear-creek-07.jpg",
+        "assets/img/portfolio/bear-creek/bear-creek-08.jpg"
       ]
     },
     {
@@ -24,7 +29,9 @@
       "images": [
         "assets/img/portfolio/meadow-creek/meadow-creek-01.jpg",
         "assets/img/portfolio/meadow-creek/meadow-creek-02.jpg",
-        "assets/img/portfolio/meadow-creek/meadow-creek-04.jpg"
+        "assets/img/portfolio/meadow-creek/meadow-creek-03.jpg",
+        "assets/img/portfolio/meadow-creek/meadow-creek-04.jpg",
+        "assets/img/portfolio/meadow-creek/meadow-creek-05.jpg"
       ]
     },
     {
@@ -58,9 +65,14 @@
       "name": "Cle Elum Retreat",
       "location": "Cle Elum, WA",
       "images": [
+        "assets/img/portfolio/cle-elum/cle-elum-01.jpg",
         "assets/img/portfolio/cle-elum/cle-elum-02.jpg",
         "assets/img/portfolio/cle-elum/cle-elum-03.jpg",
-        "assets/img/portfolio/cle-elum/cle-elum-04.jpg"
+        "assets/img/portfolio/cle-elum/cle-elum-04.jpg",
+        "assets/img/portfolio/cle-elum/cle-elum-05.jpg",
+        "assets/img/portfolio/cle-elum/cle-elum-06.jpg",
+        "assets/img/portfolio/cle-elum/cle-elum-07.jpg",
+        "assets/img/portfolio/cle-elum/cle-elum-08.jpg"
       ]
     },
     {
@@ -78,7 +90,7 @@
       "images": [
         "assets/img/portfolio/elma-court/elma-court-01.jpg",
         "assets/img/portfolio/elma-court/elma-court-02.jpg",
-        "assets/img/portfolio/elma-court/elma-court-04.jpg"
+        "assets/img/portfolio/elma-court/elma-court-03.jpg"
       ]
     },
     {
@@ -89,7 +101,11 @@
         "assets/img/portfolio/laurelhurst/laurelhurst-02.jpg",
         "assets/img/portfolio/laurelhurst/laurelhurst-03.jpg",
         "assets/img/portfolio/laurelhurst/laurelhurst-04.jpg",
-        "assets/img/portfolio/laurelhurst/laurelhurst-05.jpg"
+        "assets/img/portfolio/laurelhurst/laurelhurst-05.jpg",
+        "assets/img/portfolio/laurelhurst/laurelhurst-06.jpg",
+        "assets/img/portfolio/laurelhurst/laurelhurst-07.jpg",
+        "assets/img/portfolio/laurelhurst/laurelhurst-08.jpg",
+        "assets/img/portfolio/laurelhurst/laurelhurst-09.jpg"
       ]
     },
     {
