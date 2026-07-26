@@ -1,15 +1,6 @@
 {
   "projects": [
     {
-      "name": "10th Avenue",
-      "location": "Seattle, WA",
-      "images": [
-        "assets/img/portfolio/tenth-ave/tenth-ave-01.jpg",
-        "assets/img/portfolio/tenth-ave/tenth-ave-02.jpg",
-        "assets/img/portfolio/tenth-ave/tenth-ave-03.jpg"
-      ]
-    },
-    {
       "name": "Bear Creek Estate",
       "location": "Woodinville, WA",
       "images": [
@@ -18,7 +9,6 @@
         "assets/img/portfolio/bear-creek/bear-creek-03.jpg",
         "assets/img/portfolio/bear-creek/bear-creek-04.jpg",
         "assets/img/portfolio/bear-creek/bear-creek-05.jpg",
-        "assets/img/portfolio/bear-creek/bear-creek-06.jpg",
         "assets/img/portfolio/bear-creek/bear-creek-07.jpg",
         "assets/img/portfolio/bear-creek/bear-creek-08.jpg"
       ]
@@ -114,7 +104,6 @@
         "assets/img/portfolio/laurelhurst/laurelhurst-04.jpg",
         "assets/img/portfolio/laurelhurst/laurelhurst-05.jpg",
         "assets/img/portfolio/laurelhurst/laurelhurst-06.jpg",
-        "assets/img/portfolio/laurelhurst/laurelhurst-07.jpg",
         "assets/img/portfolio/laurelhurst/laurelhurst-08.jpg",
         "assets/img/portfolio/laurelhurst/laurelhurst-09.jpg"
       ]
@@ -144,6 +133,47 @@
         "assets/img/portfolio/paisley/paisley-08.jpg",
         "assets/img/portfolio/paisley/paisley-09.jpg",
         "assets/img/portfolio/paisley/paisley-10.jpg"
+      ]
+    },
+    {
+      "name": "McGraw",
+      "location": "Puget Sound, WA",
+      "images": [
+        "assets/img/portfolio/mcgraw/mcgraw-01.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-02.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-03.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-04.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-05.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-06.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-07.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-08.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-09.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-10.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-11.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-12.jpg",
+        "assets/img/portfolio/mcgraw/mcgraw-13.jpg"
+      ]
+    },
+    {
+      "name": "Providence Point",
+      "location": "Puget Sound, WA",
+      "images": [
+        "assets/img/portfolio/providence-point/providence-point-01.jpg",
+        "assets/img/portfolio/providence-point/providence-point-02.jpg",
+        "assets/img/portfolio/providence-point/providence-point-03.jpg",
+        "assets/img/portfolio/providence-point/providence-point-04.jpg",
+        "assets/img/portfolio/providence-point/providence-point-05.jpg",
+        "assets/img/portfolio/providence-point/providence-point-06.jpg",
+        "assets/img/portfolio/providence-point/providence-point-07.jpg"
+      ]
+    },
+    {
+      "name": "10th Avenue",
+      "location": "Seattle, WA",
+      "images": [
+        "assets/img/portfolio/tenth-ave/tenth-ave-01.jpg",
+        "assets/img/portfolio/tenth-ave/tenth-ave-02.jpg",
+        "assets/img/portfolio/tenth-ave/tenth-ave-03.jpg"
       ]
     }
   ]
