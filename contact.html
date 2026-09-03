@@ -22,6 +22,12 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Drift Staging & Design Studio","alternateName":"Drift Staging","description":"Boutique home staging and market-ready design serving Everett, Greater Seattle, and the Puget Sound region.","image":"https://www.driftdesignandco.com/assets/img/portfolio/84th-ave/84th-ave-01.jpg","@id":"https://www.driftdesignandco.com","url":"https://www.driftdesignandco.com","telephone":"+1-425-478-0327","email":"info@driftdesignandco.com","address":{"@type":"PostalAddress","streetAddress":"2210 Hewitt Ave, Suite 101","addressLocality":"Everett","addressRegion":"WA","postalCode":"98201","addressCountry":"US"},"areaServed":["Everett","Seattle","Bellevue","Snohomish County","King County","Puget Sound"],"knowsAbout":["home staging","vacant staging","occupied staging","spec home staging","market-ready refresh","real estate staging"],"priceRange":"$$"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+.captcha-field{max-width:320px;}
+.captcha-field .g-recaptcha,.captcha-field>div[data-netlify-recaptcha]{transform-origin:0 0;}
+.captcha-note{margin:10px 0 0;font-size:12px;letter-spacing:.02em;color:#a33;}
+@media(max-width:360px){.captcha-field .g-recaptcha{transform:scale(.86);}}
+</style>
 </head>
 <body>
 <header class="site-header on-light">
@@ -56,7 +62,7 @@
 
 <section class="pad-sm">
 <div class="wrap" style="max-width:900px;">
-<form class="lead-form reveal" name="staging-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+<form class="lead-form reveal" name="staging-inquiry" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/thank-you">
 <input type="hidden" name="form-name" value="staging-inquiry">
 <p class="hp"><label>Leave blank: <input name="bot-field"></label></p>
 <div class="frow">
@@ -80,6 +86,7 @@
 <div class="field"><label>Interested in Pay-At-Close?</label><select name="pay_at_close"><option value="" disabled selected>Select&hellip;</option><option>Yes, interested</option><option>No</option><option>Tell me more</option></select></div>
 </div>
 <div class="field"><label>Anything else?</label><textarea name="message" rows="4" placeholder="Tell us about the property, photos, or any details."></textarea></div>
+<div class="field captcha-field"><label>Verification <span>*</span></label><div data-netlify-recaptcha="true"></div><p class="captcha-note" hidden>Please check the box above so we know you&rsquo;re human.</p></div>
 <div class="form-actions">
 <button class="btn solid" type="submit">Request a Staging Quote</button>
 <p class="form-note">Prefer to reach us directly? <a data-cms="email" href="mailto:info@driftdesignandco.com">info@driftdesignandco.com</a> &middot; <a data-cms="phone" href="tel:4254780327">425-478-0327</a></p>
@@ -141,6 +148,22 @@ Elevated spatial staging and design for a market that rewards thoughtful present
 </div>
 </div>
 </footer>
+<script>
+(function(){
+var forms=document.querySelectorAll('form[data-netlify-recaptcha]');
+Array.prototype.forEach.call(forms,function(f){
+f.addEventListener('submit',function(e){
+try{
+if(window.grecaptcha&&typeof grecaptcha.getResponse==='function'&&!grecaptcha.getResponse()){
+e.preventDefault();
+var n=f.querySelector('.captcha-note');
+if(n){n.hidden=false;n.scrollIntoView({block:'center',behavior:'smooth'});}
+}
+}catch(err){}
+});
+});
+})();
+</script>
 <script src="assets/js/app.js" defer></script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>if(window.netlifyIdentity){netlifyIdentity.on("init",function(u){if(!u){netlifyIdentity.on("login",function(){document.location.href="/admin/";});}});}</script>
