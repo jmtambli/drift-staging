@@ -33,6 +33,28 @@ collections:
                 summary: "Photo"
                 field: { label: "Photo", name: "image", widget: "image", hint: "Click to upload or replace." }
 
+  - name: "journal"
+    label: "📝 Journal (Blog)"
+    description: "Write and edit blog posts. Add a cover photo, and write in the simple editor."
+    files:
+      - name: "journal"
+        label: "Posts"
+        file: "data/journal.json"
+        editor: { preview: false }
+        fields:
+          - label: "Posts"
+            name: "posts"
+            label_singular: "Post"
+            widget: "list"
+            add_to_top: true
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "Cover photo", name: "cover", widget: "image" }
+              - { label: "Short summary (shown on the card)", name: "excerpt", widget: "text" }
+              - { label: "Post body", name: "body", widget: "markdown" }
+
   - name: "settings"
     label: "✏️ Site Text & Contact"
     description: "Edit key wording and your contact details (updates everywhere)."
